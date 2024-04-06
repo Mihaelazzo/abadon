@@ -1,0 +1,102 @@
+backend:
+  name: github
+  branch: main
+  repo: snsa-kscc/abadon
+  site_domain: abadon.vercel.app
+  base_url: https://abadon.vercel.app
+  auth_endpoint: oauth
+
+media_folder: src/assets/img
+public_folder: src/assets/img
+
+collections:
+  - name: content
+    label: Content
+    folder: src/pages
+    delete: false
+    fields:
+      - { label: Layout, name: layout, widget: hidden }
+      - { label: "Site Title", name: meta_title, widget: string, required: false }
+      - { label: "Site Description", name: meta_description, widget: string, required: false }
+
+      - label: "Header Image"
+        name: header_image
+        widget: object
+        fields:
+          - { label: Image, name: image, widget: image, required: false }
+          - { label: Alt, name: alt, widget: string, required: false }
+
+      - label: "Hero Image"
+        name: hero_image
+        widget: object
+        fields:
+          - { label: Image, name: image, widget: image, required: false }
+          - { label: Alt, name: alt, widget: string, required: false }
+
+      - label: "Book Image"
+        name: book_image
+        widget: object
+        fields:
+          - { label: Image, name: image, widget: image, required: false }
+          - { label: Alt, name: alt, widget: string, required: false }
+
+      - label: "Book Preview"
+        name: book_preview
+        widget: object
+        fields:
+          - { label: "Text", name: text, widget: string, required: false }
+          - { label: "Widget", name: widget, widget: image, required: false }
+          - { label: "Alt", name: alt, widget: string, required: false }
+          - { label: "Link", name: link, widget: file, required: false }
+
+      - label: "Book Meta"
+        name: book_meta
+        widget: list
+        summary: "Meta Group"
+        fields:
+          - label: "Book Meta Group"
+            name: book_meta_group
+            widget: list
+            summary: "{{fields.key}}"
+            fields:
+              - { label: Key, name: key, widget: string, required: false }
+              - { label: Value, name: value, widget: string, required: false }
+
+      - { label: "Book Description", name: body, widget: markdown, required: false }
+
+      - { label: "Author Title", name: author_title, widget: string, required: false }
+
+      - label: Authors
+        name: authors
+        widget: list
+        summary: "{{fields.author.alt}}"
+        fields:
+          - label: Author
+            name: author
+            widget: object
+            fields:
+              - { label: Avatar, name: avatar, widget: image, required: false }
+              - { label: Alt, name: alt, widget: string, required: false }
+              - { label: Bio, name: bio, widget: text, required: false }
+
+      - label: Footer
+        name: footer
+        widget: list
+        summary: "{{fields.footer_item.key}}"
+        fields:
+          - label: "Footer Item"
+            name: footer_item
+            widget: object
+            fields:
+              - { label: Key, name: key, widget: string, required: false }
+              - { label: Value, name: value, widget: string, required: false }
+              - { label: "Link", name: link, widget: string, required: false }
+
+  - name: authors
+    label: Authors
+    folder: src/content/authors
+    delete: false
+    fields:
+      - { label: Title, name: title, widget: string, required: false }
+      - { label: Avatar, name: avatar, widget: image, required: false }
+      - { label: Bio, name: body, widget: markdown, required: false }

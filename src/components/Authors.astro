@@ -1,0 +1,45 @@
+---
+type Author = {
+  author: {
+    alt: string;
+    bio: string;
+  };
+};
+
+const { authors } = Astro.props;
+import { Content as Auth0 } from "../content/authors/denis.md";
+import { Content as Auth1 } from "../content/authors/mihael.md";
+
+const posts = await Astro.glob("../content/authors/*.md");
+---
+
+{
+  authors.map((i: Author) => (
+    <div>
+      <p>{i.author.alt}</p>
+      <p>{i.author.bio}</p>
+    </div>
+  ))
+}
+<p>!!!</p>
+<p>
+  <Auth0 />
+</p>
+<p>!!!</p>
+
+<p>!!!</p>
+<p>
+  <Auth1 />
+</p>
+<p>!!!</p>
+<div class="text-red-500">
+  {
+    posts.map((post, idx) => (
+      <>
+        <p>{post.frontmatter.title}</p>
+        {idx === 0 && <Auth0 />}
+        {idx === 1 && <Auth1 />}
+      </>
+    ))
+  }
+</div>

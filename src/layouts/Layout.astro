@@ -1,0 +1,51 @@
+---
+type BookMeta = {
+  key: string;
+  value: string;
+};
+
+type Chunk = {
+  book_meta_group: [];
+  book_meta: {
+    book_meta_group: BookMeta[];
+  };
+};
+
+import Authors from "../components/Authors.astro";
+import Header from "../components/Header.astro";
+const { frontmatter } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={frontmatter.meta_description} />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{frontmatter.meta_title}</title>
+  </head>
+  <body>
+    <Header title="neki tajtl" description="neki opis" />
+    <p>{frontmatter.author_title}</p>
+    <Authors authors={frontmatter.authors} />
+    {frontmatter.footer.map((i: any) => <p>{i.footer_item.key}</p>)}
+    <hr />
+    {
+      frontmatter.book_meta.map((chunk: Chunk) => (
+        <div class="p-8">
+          {chunk.book_meta_group.map((i: BookMeta) => (
+            <div class="p-2">
+              <p>{i.key}</p>
+              <p>{i.value}</p>
+            </div>
+          ))}
+        </div>
+      ))
+    }
+    <hr />
+    <slot />
+  </body>
+</html>
+<style is:global></style>
