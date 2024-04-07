@@ -9,7 +9,7 @@ const authors = await Astro.glob("../content/authors/*.md");
 <section class="container flex gap-16 sm:gap-8 flex-col lg:flex-row mx-auto max-w-screen-xl pb-28 lg:pb-52">
   {
     authors.map((post, idx) => (
-      <div class="flex flex-col sm:flex-row gap-4 items-start text-sm md:text-base lg:text-sm xl:text-base">
+      <div class="flex flex-col sm:flex-row gap-4 items-start text-base sm:text-sm md:text-base lg:text-sm xl:text-base">
         <Image class="basis-1/4" src={post.frontmatter.avatar} alt={post.frontmatter.title} loading="lazy" width={193} height={236} />
         {idx === 0 && <Auth0 />}
         {idx === 1 && <Auth1 />}
