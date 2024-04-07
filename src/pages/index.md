@@ -3,16 +3,16 @@ layout: ../layouts/Layout.astro
 meta_title: Abadon - graphic novel
 meta_description: Ono ispod google search rezultata. Jedna do dvije recenice.
 header_image:
-  image: public/assets/img/header.jpg
+  image: /assets/img/header.jpg
   alt: Abadon header
 hero_image:
-  image: public/assets/img/hero.png
+  image: /assets/img/hero.png
   alt: Abadon hero
 book_image:
-  image: public/assets/img/cover.jpg
+  image: /assets/img/cover.jpg
   alt: Abadon book cover
 book_preview:
-  widget: public/assets/img/page-icon.png
+  widget: /assets/img/page-icon.png
   link: https://utfs.io/f/d4249604-c550-40dd-b456-6359efb96e69-mw8gm0.pdf
   alt: Abadon page icon
   text: OGLEDNE STRANICE STRIP ALBUMA
