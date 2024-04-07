@@ -32,12 +32,12 @@ const { frontmatter } = Astro.props;
   </head>
   <body class="bg-neutral-900 text-white">
     <!-- <Header image={frontmatter.header_image} alt={frontmatter.header_image.alt} /> -->
-    <Image src={frontmatter.hero_image.image} alt={frontmatter.hero_image.alt} loading={"eager"} width={171} height={35} />
+    <Image src={frontmatter.hero_image.image} alt={frontmatter.hero_image.alt} loading="eager" width={171} height={35} />
     <div class="cover">
-      <Image src={frontmatter.book_image.image} alt={frontmatter.book_image.alt} loading={"eager"} width={588} height={808} />
+      <Image src={frontmatter.book_image.image} alt={frontmatter.book_image.alt} loading="eager" width={588} height={808} />
       <p>{frontmatter.book_preview.text}</p>
       <a href={frontmatter.book_preview.link} target="_blank">
-        <Image src={frontmatter.book_preview.widget} alt={frontmatter.book_preview.alt} loading={"eager"} width={36} height={41} />
+        <Image src={frontmatter.book_preview.widget} alt={frontmatter.book_preview.alt} loading="eager" width={36} height={41} />
       </a>
     </div>
     {
