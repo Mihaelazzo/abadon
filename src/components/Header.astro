@@ -1,8 +1,9 @@
 ---
-const { title, description } = Astro.props;
+import Image from "astro/components/Image.astro";
+
+const { image, alt } = Astro.props;
 ---
 
-<div>
-  <p>{title}</p>
-  <p>{description}</p>
-</div>
+<section>
+  <Image src={image} alt={alt} width={1920} loading="eager" height={549} class="mx-auto" />
+</section>

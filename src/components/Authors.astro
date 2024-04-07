@@ -1,45 +1,19 @@
 ---
-type Author = {
-  author: {
-    alt: string;
-    bio: string;
-  };
-};
-
-const { authors } = Astro.props;
+import { Image } from "astro:assets";
 import { Content as Auth0 } from "../content/authors/denis.md";
 import { Content as Auth1 } from "../content/authors/mihael.md";
 
-const posts = await Astro.glob("../content/authors/*.md");
+const authors = await Astro.glob("../content/authors/*.md");
 ---
 
-{
-  authors.map((i: Author) => (
-    <div>
-      <p>{i.author.alt}</p>
-      <p>{i.author.bio}</p>
-    </div>
-  ))
-}
-<p>!!!</p>
-<p>
-  <Auth0 />
-</p>
-<p>!!!</p>
-
-<p>!!!</p>
-<p>
-  <Auth1 />
-</p>
-<p>!!!</p>
-<div class="text-red-500">
+<section class="container flex gap-16 sm:gap-8 flex-col lg:flex-row mx-auto max-w-screen-xl pb-52">
   {
-    posts.map((post, idx) => (
-      <>
-        <p>{post.frontmatter.title}</p>
+    authors.map((post, idx) => (
+      <div class="flex flex-col sm:flex-row gap-4 items-start text-sm md:text-base lg:text-sm xl:text-base">
+        <Image class="basis-1/4" src={post.frontmatter.avatar} alt={post.frontmatter.title} loading="lazy" width={193} height={236} />
         {idx === 0 && <Auth0 />}
         {idx === 1 && <Auth1 />}
-      </>
+      </div>
     ))
   }
-</div>
+</section>
