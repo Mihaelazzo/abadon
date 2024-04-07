@@ -47,7 +47,7 @@ footer:
   - footer_item:
       key: email
       value: abadon@abadon.hr
-      link: abadon@abadon.hr
+      link: mailto:abadon@abadon.hr
   - footer_item:
       key: instagram
       value: "@abadon"
