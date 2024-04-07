@@ -53,9 +53,12 @@ footer:
       value: "@abadon"
       link: https://instagram.com/abadon
 ---
-
 Radnja Abadona prati Marina i Dejana, dvojicu policijskih inspektora u lovu na serijskog ubojicu, samoprozvanog Abadona – anđela bezdana.
 
-Abadon je mračna, napeta priča o hladnokrvnom ubojici koji je brutalan, ali i neuhvatljiv. Kada grad zadesi novi mučan slučaj ubojstva, Marin odmah shvaća kako je riječ o ubojici koji je prije deset godina _djelovao_ pa onda naglo nestao, ostavivši iza sebe više žrtava. Zvijer u ljudskom obličju kreće u novi, smrtonosni pohod, a istražiteljski dvojac nastoji mu stati na kraj i prekinuti psihopatove ubilačke namjere.
 
-Ovaj zamršeni triler inspiraciju crpi iz filmskih klasika kao što su _Sedam_ i _Privedite osumnjičene_, nudeći pritom vlastita promišljanja o pravdi, moralu, smrti te podvojenosti između dobra i zla, umotanih u napetu priču ispunjenu dramskim obratima.
+
+Abadon je mračna, napeta priča o hladnokrvnom ubojici koji je brutalan, ali i neuhvatljiv. Kada grad zadesi novi mučan slučaj ubojstva, Marin odmah shvaća kako je riječ o ubojici koji je prije deset godina *djelovao* pa onda naglo nestao, ostavivši iza sebe više žrtava. Zvijer u ljudskom obličju kreće u novi, smrtonosni pohod, a istražiteljski dvojac nastoji mu stati na kraj i prekinuti psihopatove ubilačke namjere.
+
+
+
+Ovaj zamršeni triler inspiraciju crpi iz filmskih klasika kao što su *Sedam* i *Privedite osumnjičene*, nudeći pritom vlastita promišljanja o pravdi, moralu, smrti te podvojenosti između dobra i zla, umotanih u napetu priču ispunjenu dramskim obratima.
