@@ -1,0 +1,5 @@
+---
+const { footer } = Astro.props;
+---
+
+{footer.map((i: any) => <p>{i.footer_item.key}</p>)}

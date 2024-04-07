@@ -66,19 +66,6 @@ collections:
 
       - { label: "Author Title", name: author_title, widget: string, required: false }
 
-      - label: Authors
-        name: authors
-        widget: list
-        summary: "{{fields.author.alt}}"
-        fields:
-          - label: Author
-            name: author
-            widget: object
-            fields:
-              - { label: Avatar, name: avatar, widget: image, required: false }
-              - { label: Alt, name: alt, widget: string, required: false }
-              - { label: Bio, name: bio, widget: text, required: false }
-
       - label: Footer
         name: footer
         widget: list
