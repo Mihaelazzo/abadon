@@ -3,8 +3,15 @@ layout: ../layouts/Layout.astro
 meta_title: Abadon
 meta_description: Ono ispod google search rezultata. Jedna do dvije recenice.
 header_image:
-  image: ""
+  image: src/assets/img/header.jpg
   alt: Abadon header
+hero_image:
+  image: src/assets/img/hero.png
+book_image:
+  image: src/assets/img/cover.jpg
+book_preview:
+  widget: src/assets/img/page-icon.png
+  link: https://utfs.io/f/d4249604-c550-40dd-b456-6359efb96e69-mw8gm0.pdf
 book_meta:
   - book_meta_group:
       - key: SCENARIJ
