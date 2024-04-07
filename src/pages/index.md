@@ -3,16 +3,16 @@ layout: ../layouts/Layout.astro
 meta_title: Abadon - graphic novel
 meta_description: Ono ispod google search rezultata. Jedna do dvije recenice.
 header_image:
-  image: src/assets/img/header.jpg
+  image: public/assets/img/header.jpg
   alt: Abadon header
 hero_image:
-  image: src/assets/img/hero.png
+  image: public/assets/img/hero.png
   alt: Abadon hero
 book_image:
-  image: src/assets/img/cover.jpg
+  image: public/assets/img/cover.jpg
   alt: Abadon book cover
 book_preview:
-  widget: src/assets/img/page-icon.png
+  widget: public/assets/img/page-icon.png
   link: https://utfs.io/f/d4249604-c550-40dd-b456-6359efb96e69-mw8gm0.pdf
   alt: Abadon page icon
   text: OGLEDNE STRANICE STRIP ALBUMA
@@ -53,8 +53,9 @@ footer:
       value: "@abadon"
       link: https://instagram.com/abadon
 ---
+
 Radnja Abadona prati Marina i Dejana, dvojicu policijskih inspektora u lovu na serijskog ubojicu, samoprozvanog Abadona – anđela bezdana.
 
-Abadon je mračna, napeta priča o hladnokrvnom ubojici koji je brutalan, ali i neuhvatljiv. Kada grad zadesi novi mučan slučaj ubojstva, Marin odmah shvaća kako je riječ o ubojici koji je prije deset godina *djelovao* pa onda naglo nestao, ostavivši iza sebe više žrtava. Zvijer u ljudskom obličju kreće u novi, smrtonosni pohod, a istražiteljski dvojac nastoji mu stati na kraj i prekinuti psihopatove ubilačke namjere.
+Abadon je mračna, napeta priča o hladnokrvnom ubojici koji je brutalan, ali i neuhvatljiv. Kada grad zadesi novi mučan slučaj ubojstva, Marin odmah shvaća kako je riječ o ubojici koji je prije deset godina _djelovao_ pa onda naglo nestao, ostavivši iza sebe više žrtava. Zvijer u ljudskom obličju kreće u novi, smrtonosni pohod, a istražiteljski dvojac nastoji mu stati na kraj i prekinuti psihopatove ubilačke namjere.
 
-Ovaj zamršeni triler inspiraciju crpi iz filmskih klasika kao što su *Sedam* i *Privedite osumnjičene*, nudeći pritom vlastita promišljanja o pravdi, moralu, smrti te podvojenosti između dobra i zla, umotanih u napetu priču ispunjenu dramskim obratima.
+Ovaj zamršeni triler inspiraciju crpi iz filmskih klasika kao što su _Sedam_ i _Privedite osumnjičene_, nudeći pritom vlastita promišljanja o pravdi, moralu, smrti te podvojenosti između dobra i zla, umotanih u napetu priču ispunjenu dramskim obratima.
