@@ -3,7 +3,7 @@ layout: ../layouts/Layout.astro
 meta_title: Abadon
 meta_description: Ono ispod google search rezultata. Jedna do dvije recenice.
 header_image:
-  image: src/assets/img/abadon_header.gif
+  image: ""
   alt: Abadon header
 book_meta:
   - book_meta_group:
