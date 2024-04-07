@@ -6,8 +6,8 @@ backend:
   base_url: https://abadon.vercel.app
   auth_endpoint: oauth
 
-media_folder: src/assets/img
-public_folder: src/assets/img
+media_folder: public/assets/img
+public_folder: /assets/img
 
 collections:
   - name: content
