@@ -4,13 +4,13 @@ meta_title: Abadon - graphic novel
 meta_description: Ono ispod google search rezultata. Jedna do dvije recenice.
 header_image:
   image: src/assets/img/header.jpg
-  alt: Abadon header image
+  alt: Abadon header
 hero_image:
   image: src/assets/img/hero.png
-  alt: Abadon hero image
+  alt: Abadon hero
 book_image:
   image: src/assets/img/cover.jpg
-  alt: Abadon book cover image
+  alt: Abadon book cover
 book_preview:
   widget: src/assets/img/page-icon.png
   link: https://utfs.io/f/d4249604-c550-40dd-b456-6359efb96e69-mw8gm0.pdf
