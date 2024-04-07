@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/Layout.astro
-meta_title: Abadon
+meta_title: Abadon - graphic novel
 meta_description: Ono ispod google search rezultata. Jedna do dvije recenice.
 header_image:
   image: src/assets/img/header.jpg
