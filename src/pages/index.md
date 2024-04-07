@@ -4,14 +4,18 @@ meta_title: Abadon
 meta_description: Ono ispod google search rezultata. Jedna do dvije recenice.
 header_image:
   image: src/assets/img/header.jpg
-  alt: Abadon header
+  alt: Abadon header image
 hero_image:
   image: src/assets/img/hero.png
+  alt: Abadon hero image
 book_image:
   image: src/assets/img/cover.jpg
+  alt: Abadon book cover image
 book_preview:
   widget: src/assets/img/page-icon.png
   link: https://utfs.io/f/d4249604-c550-40dd-b456-6359efb96e69-mw8gm0.pdf
+  alt: Abadon page icon
+  text: OGLEDNE STRANICE STRIP ALBUMA
 book_meta:
   - book_meta_group:
       - key: SCENARIJ
