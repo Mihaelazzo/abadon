@@ -6,7 +6,7 @@ import { Content as Auth1 } from "../content/authors/mihael.md";
 const authors = await Astro.glob("../content/authors/*.md");
 ---
 
-<section class="container flex gap-16 sm:gap-8 flex-col lg:flex-row mx-auto max-w-screen-xl pb-52">
+<section class="container flex gap-16 sm:gap-8 flex-col lg:flex-row mx-auto max-w-screen-xl pb-28 lg:pb-52">
   {
     authors.map((post, idx) => (
       <div class="flex flex-col sm:flex-row gap-4 items-start text-sm md:text-base lg:text-sm xl:text-base">
