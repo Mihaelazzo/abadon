@@ -50,8 +50,8 @@ footer:
       link: mailto:abadon@abadon.hr
   - footer_item:
       key: instagram
-      value: "@abadon"
-      link: https://instagram.com/abadon
+      value: "@wanderereclectic"
+      link: https://instagram.com/wanderereclectic
 ---
 
 Radnja Abadona prati Marina i Dejana, dvojicu policijskih inspektora u lovu na serijskog ubojicu, samoprozvanog Abadona – anđela bezdana.
