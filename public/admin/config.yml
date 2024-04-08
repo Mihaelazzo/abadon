@@ -1,9 +1,9 @@
 backend:
   name: github
   branch: main
-  repo: snsa-kscc/abadon
-  site_domain: abadon.vercel.app
-  base_url: https://abadon.vercel.app
+  repo: Mihaelazzo/abadon
+  site_domain: abadon.hr
+  base_url: https://abadon.hr
   auth_endpoint: oauth
 
 media_folder: public/assets/img
