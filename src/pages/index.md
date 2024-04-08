@@ -1,7 +1,7 @@
 ---
 layout: ../layouts/Layout.astro
 meta_title: Abadon - strip-album
-meta_description: Punokrvni triler u formatu autorskog strip-albuma.
+meta_description: Punokrvan triler u formatu autorskog strip-albuma.
 header_image:
   image: /assets/img/header.gif
   alt: Abadon header
