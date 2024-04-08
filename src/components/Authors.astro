@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
-import { Content as Auth0 } from "../content/authors/denis.md";
-import { Content as Auth1 } from "../content/authors/mihael.md";
+import { Content as Author_0 } from "../content/authors/b_mihael.md";
+import { Content as Author_1 } from "../content/authors/v_denis.md";
 
 const authors = await Astro.glob("../content/authors/*.md");
 ---
@@ -11,8 +11,8 @@ const authors = await Astro.glob("../content/authors/*.md");
     authors.map((post, idx) => (
       <div class="flex flex-col sm:flex-row gap-4 items-start text-base sm:text-sm md:text-base lg:text-sm xl:text-base">
         <Image class="basis-1/4" src={post.frontmatter.avatar} alt={post.frontmatter.title} loading="lazy" width={193} height={236} />
-        {idx === 0 && <Auth0 />}
-        {idx === 1 && <Auth1 />}
+        {idx === 0 && <Author_0 />}
+        {idx === 1 && <Author_1 />}
       </div>
     ))
   }
