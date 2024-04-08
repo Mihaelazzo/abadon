@@ -46,7 +46,14 @@ const { frontmatter } = Astro.props;
               <p class="text-end text-balance basis-1/2">{frontmatter.book_preview.text}</p>
               <div class="basis-1/2">
                 <a href={frontmatter.book_preview.link} target="_blank">
-                  <Image class="inline" src={frontmatter.book_preview.widget} alt={frontmatter.book_preview.alt} loading="eager" width={36} height={41} />
+                  <Image
+                    class="inline hover:opacity-50 transition-all duration-300 ease-in-out"
+                    src={frontmatter.book_preview.widget}
+                    alt={frontmatter.book_preview.alt}
+                    loading="eager"
+                    width={36}
+                    height={41}
+                  />
                 </a>
               </div>
             </div>
