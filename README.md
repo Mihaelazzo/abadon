@@ -1,6 +1,6 @@
 # Abadon
 
-Future web site for [Abadon](https://abadon.hr).
+Web site for [Abadon](https://abadon.hr).
 
 ---
 
